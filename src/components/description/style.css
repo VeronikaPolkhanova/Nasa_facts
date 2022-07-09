@@ -1,0 +1,49 @@
+.description {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.description video {
+    width: 100%;
+}
+
+.description .item {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.description-text {
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-text .title {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 0 10px;
+    color: rgb(100, 18, 194);
+    text-shadow: 0 2px 3px #09b7bd;
+}
+
+.description img {
+    width: 40%;
+    border: 1px solid #09b7bd;
+    box-shadow: 0px 0px 20px #09b7bd;
+    margin-right: 20px;
+}
+
+.description .explanation {
+    color: rgb(100, 18, 194);
+    font-size: 20px;
+}
+
+.date-copyright {
+    color: #09b7bd;
+    text-align: end;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.element::-webkit-scrollbar {
+    width: 0;
+}
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.gallery-container {
+    background-image: url(../media/img/gallery_bg.jpeg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.favourite-container {
+    background-image: url(../media/img/planet-fav-bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+.favourite-container .empty {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: fit-content;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: rgb(100, 18, 194);
+    text-shadow: 0 2px 3px #09b7bd;
+}
+
+video {
+    filter: brightness(70%);
+}
+
+.text {
+    color: rgb(100, 18, 194);
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nasa {
+    z-index: 10;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom: 1px #09b7bd solid;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.text h2 {
+    padding: 10% 0 2%;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-shadow: 0 7px 5px #09b7bd;
+}
+
+.text p {
+    width: 60%;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 0 45px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(100, 18, 194);
+    transition: 0.1s ease;
+}
+
+.link:hover {
+    text-shadow: 0 2px 3px #09b7bd;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+.button-link {
+    width: fit-content;
+    text-decoration: none;
+    color: #09b7bd;
+    border: 1px solid #09b7bd;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.button-link:hover {
+    color: rgb(100, 18, 194);
+    border: 1px solid rgb(100, 18, 194);
+    transition: 0.2s ease;
+}

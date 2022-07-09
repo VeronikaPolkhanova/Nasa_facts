@@ -1,0 +1,13 @@
+.rocket-up {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    font-size: 50px;
+    color: #09b7bd;
+    cursor: pointer;
+    transform: rotate(0.8turn);
+}
+
+.rocket-up:hover {
+    filter: drop-shadow(0px 0px 2px #09b7bd);
+}

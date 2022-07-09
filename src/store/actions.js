@@ -1,0 +1,1 @@
+export const SetFavouriteAction = (payload) => ({type: 'SET_FAVOURITE', payload})
