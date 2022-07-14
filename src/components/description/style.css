@@ -1,10 +1,7 @@
 .description {
     overflow: hidden;
+    position: relative;
     height: 100vh;
-}
-
-.description video {
-    width: 100%;
 }
 
 .description .item {

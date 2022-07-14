@@ -1,19 +1,13 @@
 import { Link } from 'react-router-dom';
+
+import VideoBg from '../components/videoBg';
+
 import './style.css';
-import video from '../media/video/planet.mp4';
 
 function AboutPage() {
     return (
         <div className="about-container">
-            <video
-                height={"inherit"}
-                muted
-                loop
-                autoPlay={"autoplay"}
-                preload="auto"
-                src={video}
-                type="video/mp4">
-            </video>
+            <VideoBg url="https://cdn.videvo.net/videvo_files/video/free/2016-05/large_watermarked/506401051_1_preview.mp4" />
             <a className="link nasa" target="_blank" rel="noreferrer" href="https://www.nasa.gov/">Nasa web-site</a>
             <div className="text">
                 <h2>Random facts about space</h2>

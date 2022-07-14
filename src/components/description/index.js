@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 
-import video from '../../media/video/stars.mp4'
+import VideoBg from "../videoBg";
+
 import './style.css';
 
 function Description() {
@@ -8,15 +9,7 @@ function Description() {
     const { state } = location;
     return (
         <div className="description">
-            <video
-                height={"inherit"}
-                muted
-                loop
-                autoPlay={"autoplay"}
-                preload="auto"
-                src={video}
-                type="video/mp4">
-            </video>
+            <VideoBg url="https://cdn.videvo.net/videvo_files/video/free/2013-10/large_watermarked/Background_08_preview.mp4"/>
             <div className="item">
                 <img src={state.url} alt={state.id} />
                 <div className="description-text">
@@ -27,7 +20,7 @@ function Description() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default Description;

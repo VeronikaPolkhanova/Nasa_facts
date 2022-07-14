@@ -25,6 +25,7 @@
 .about-container {
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 .favourite-container {
@@ -45,10 +46,6 @@
     padding: 10px 20px;
     color: rgb(100, 18, 194);
     text-shadow: 0 2px 3px #09b7bd;
-}
-
-video {
-    filter: brightness(70%);
 }
 
 .text {
