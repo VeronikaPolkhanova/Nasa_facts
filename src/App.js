@@ -25,7 +25,6 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/favourite" element={<FavouritePage />} />
-
         <Route path="/gallery/:id" element={<Description />} />
       </Routes>
     </Fragment>

@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 
 import Gallery from '../components/gallery';
-import RocketUp from '../components/rocket-up';
+import RocketUp from '../components/rocketUp';
 
 import '../components/gallery/style.css';
 

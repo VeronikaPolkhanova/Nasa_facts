@@ -1,0 +1,9 @@
+.fav {
+    font-size: 40px;
+    color: #09b7bd;
+    cursor: pointer;
+}
+
+.fav:hover svg {
+    filter: drop-shadow(0px 0px 2px #09b7bd);
+}
