@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 function VideoBg({ url }) {
     return (
         <div className='react-player-container' style={{
-            position: "absolute",
+            position: "fixed",
             width: "-webkit-fill-available"
         }}>
             <ReactPlayer

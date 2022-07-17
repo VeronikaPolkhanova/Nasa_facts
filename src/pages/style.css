@@ -17,8 +17,7 @@
 }
 
 .gallery-container {
-    background-image: url(../media/img/gallery_bg.jpeg);
-    background-attachment: fixed;
+    min-height: 100vh;
     position: relative;
 }
 
